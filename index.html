@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Multimodal Biosignal Fusion | ECG + EEG
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- =====================================================
+        HERO
+    ====================================================== -->
+
+    <section class="hero" id="home">
+
+        <div class="waveform-background">
+
+            <svg viewBox="0 0 1200 400" preserveAspectRatio="none">
+
+                <path class="background-wave blue-wave" d="M0,200
+                    Q50,150 100,200
+                    T200,200
+                    T300,200
+                    T400,200
+                    T500,200
+                    T600,200
+                    T700,200
+                    T800,200
+                    T900,200
+                    T1000,200
+                    T1100,200
+                    T1200,200" />
+
+                <path class="background-wave cyan-wave" d="M0,220
+                    L50,220
+                    L55,180
+                    L60,260
+                    L65,220
+                    L100,220
+                    T200,220
+                    T300,220
+                    T400,220
+                    T500,220
+                    T600,220
+                    T700,220
+                    T800,220
+                    T900,220
+                    T1000,220
+                    T1100,220
+                    T1200,220" />
+
+            </svg>
+
+        </div>
+
+
+        <div class="hero-content">
+
+            <div class="institution">
+                <p>
+                    The Higher School of Engineering and Applied Technology
+                </p>
+
+                <span>
+                    Department of Biomedical Engineering
+                </span>
+            </div>
+
+
+            <div class="hero-icons">
+
+                <div class="heart-icon">
+                    ♥
+                </div>
+
+                <div class="brain-icon">
+                    🧠
+                </div>
+
+            </div>
+
+
+            <h1>
+                Multimodal Biosignal Fusion
+            </h1>
+
+
+            <p class="hero-subtitle">
+                ECG + EEG using Deep Learning for Health Monitoring
+            </p>
+
+
+            <p class="hero-title">
+                AI-based Health Monitoring System
+            </p>
+
+
+            <div class="author-badge">
+
+                by
+
+                <strong>
+                    Ghada Boughrara
+                </strong>
+            </div>
+
+
+            <div class="academic-info">
+
+                <p>
+                    Biomedical Engineering | Academic Year 2026-2027
+                </p>
+
+            </div>
+
+
+            <p class="quote">
+                "Combining Heart & Brain Signals for Smarter Diagnosis"
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        ABOUT
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="about-card">
+
+                <div class="section-icon">
+                    ◉
+                </div>
+
+
+                <h2>
+                    About the Project
+                </h2>
+
+
+                <p>
+                    Multimodal biosignal fusion is an innovative approach
+                    that combines different types of physiological signals
+                    to provide a more comprehensive understanding of
+                    patient health status. This project integrates
+                    <span class="cyan-text">
+                        ECG (Electrocardiogram)
+                    </span>
+                    signals from the heart and
+                    <span class="purple-text">
+                        EEG (Electroencephalogram)
+                    </span>
+                    signals from the brain.
+                </p>
+
+
+                <p>
+                    ECG and EEG signals are preprocessed to remove noise
+                    and artifacts, followed by feature extraction using
+                    deep learning models such as
+                    <span class="cyan-text">
+                        Convolutional Neural Networks (CNN)
+                    </span>
+                    and
+                    <span class="purple-text">
+                        Long Short-Term Memory (LSTM)
+                    </span>
+                    networks. A multimodal fusion strategy is then applied
+                    to integrate features from both signals for
+                    classification tasks.
+                </p>
+
+
+                <p>
+                    The proposed system demonstrates
+                    <span class="cyan-text">
+                        improved diagnostic performance
+                    </span>
+                    compared to single-modality approaches and can be
+                    applied in real-time health monitoring, early disease
+                    detection, and smart healthcare systems.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        WHY MULTIMODAL
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>
+                    Why Multimodal?
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+
+                <div class="feature-card cyan-card">
+
+                    <div class="feature-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Reduces Uncertainty
+                    </h3>
+
+                    <p>
+                        Multiple signal sources provide redundancy
+                        and cross-validation, reducing diagnostic
+                        uncertainty.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card purple-card">
+
+                    <div class="feature-icon">
+                        ↗
+                    </div>
+
+                    <h3>
+                        Improves Robustness
+                    </h3>
+
+                    <p>
+                        The system remains effective even if one
+                        signal type is compromised or unavailable.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card blue-card">
+
+                    <div class="feature-icon">
+                        ▥
+                    </div>
+
+                    <h3>
+                        Enhances Accuracy
+                    </h3>
+
+                    <p>
+                        Combined analysis of cardiac and brain signals
+                        captures complex physiological patterns.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="clinical-card">
+
+                <h3>
+                    Clinical Applications
+                </h3>
+
+                <p>
+                    Conditions like stress, epilepsy, and cardiac
+                    arrhythmias often involve both brain and heart
+                    responses. By analyzing ECG and EEG together,
+                    this system provides a more holistic view of
+                    patient health.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        PROJECT AIM
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>
+                    Project Aim
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="aim-grid">
+
+
+                <div class="aim-card cyan-border">
+
+                    <div class="aim-icon cyan">
+                        ♥
+                    </div>
+
+                    <h3>
+                        Intelligent System
+                    </h3>
+
+                    <p>
+                        Build an intelligent system that combines
+                        ECG and EEG signals for comprehensive
+                        health analysis.
+                    </p>
+
+                </div>
+
+
+                <div class="aim-card purple-border">
+
+                    <div class="aim-icon purple">
+                        🧠
+                    </div>
+
+                    <h3>
+                        Deep Learning Detection
+                    </h3>
+
+                    <p>
+                        Detect normal and abnormal conditions
+                        using advanced deep learning architectures.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        PROBLEM STATEMENT
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="problem-card">
+
+                <h2>
+                    Problem Statement
+                </h2>
+
+
+                <div class="problem-grid">
+
+                    <div class="problem-item">
+
+                        <span class="red-dot"></span>
+
+                        <p>
+                            Single biosignal systems
+                            (ECG-only or EEG-only) have
+                            <span class="red-text">
+                                limited diagnostic capability
+                            </span>
+                            and may miss critical cross-domain
+                            patterns.
+                        </p>
+
+                    </div>
+
+
+                    <div class="problem-item">
+
+                        <span class="orange-dot"></span>
+
+                        <p>
+                            There is a critical need for
+                            <span class="orange-text">
+                                combined multimodal analysis
+                            </span>
+                            to enable better healthcare decisions
+                            and early intervention.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        DATASET
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div class="large-section-icon">
+                    ▣
+                </div>
+
+                <h2>
+                    Dataset
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="dataset-grid">
+
+
+                <div class="dataset-card cyan-dataset">
+
+                    <div class="dataset-icon">
+                        ♥
+                    </div>
+
+                    <h3>
+                        MIT-BIH Arrhythmia Dataset
+                    </h3>
+
+                    <p>
+                        Electrocardiogram (ECG) signals for cardiac
+                        arrhythmia detection.
+                    </p>
+
+                </div>
+
+
+                <div class="dataset-card purple-dataset">
+
+                    <div class="dataset-icon">
+                        🧠
+                    </div>
+
+                    <h3>
+                        Bonn EEG Dataset
+                    </h3>
+
+                    <p>
+                        Electroencephalogram (EEG) signals for
+                        neurological condition analysis.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="dataset-stats">
+
+
+                <div class="stat-box cyan-stat">
+
+                    <strong>
+                        87,554
+                    </strong>
+
+                    <span>
+                        Training Samples
+                    </span>
+
+                </div>
+
+
+                <div class="stat-box purple-stat">
+
+                    <strong>
+                        21,892
+                    </strong>
+
+                    <span>
+                        Testing Samples
+                    </span>
+
+                </div>
+
+
+                <div class="stat-box blue-stat">
+
+                    <strong>
+                        5
+                    </strong>
+
+                    <span>
+                        Classes
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="dataset-extra">
+
+
+                <div>
+                    <span>
+                        Features per Sample
+                    </span>
+
+                    <strong>
+                        187 data points
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span>
+                        Sampling Frequency
+                    </span>
+
+                    <strong>
+                        125 Hz
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <div class="class-labels">
+
+                <h3>
+                    Class Labels
+                </h3>
+
+
+                <div class="labels-grid">
+
+
+                    <div class="label-item">
+
+                        <span class="letter green">
+                            N
+                        </span>
+
+                        <div>
+                            <strong>
+                                Normal (N)
+                            </strong>
+
+                            <p>
+                                Normal sinus rhythm
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="label-item">
+
+                        <span class="letter yellow">
+                            S
+                        </span>
+
+                        <div>
+                            <strong>
+                                Supraventricular (S)
+                            </strong>
+
+                            <p>
+                                Abnormal beat from upper chambers
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="label-item">
+
+                        <span class="letter red">
+                            V
+                        </span>
+
+                        <div>
+                            <strong>
+                                Ventricular (V)
+                            </strong>
+
+                            <p>
+                                Abnormal beat from lower chambers
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="label-item">
+
+                        <span class="letter orange">
+                            F
+                        </span>
+
+                        <div>
+                            <strong>
+                                Fusion (F)
+                            </strong>
+
+                            <p>
+                                Combination of normal and ventricular
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        METHODOLOGY
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div class="large-section-icon">
+                    ⑂
+                </div>
+
+                <h2>
+                    Methodology
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="methodology">
+
+
+                <div class="method-step">
+                    Data Acquisition
+                </div>
+
+                <div class="method-arrow">
+                    ↓
+                </div>
+
+
+                <div class="method-step">
+                    Preprocessing
+                </div>
+
+                <div class="method-arrow">
+                    ↓
+                </div>
+
+
+                <div class="method-step">
+                    Segmentation
+                </div>
+
+                <div class="method-arrow">
+                    ↓
+                </div>
+
+
+                <div class="method-step">
+                    Feature Extraction
+                </div>
+
+                <div class="method-arrow">
+                    ↓
+                </div>
+
+
+                <div class="method-step">
+                    Fusion
+                </div>
+
+                <div class="method-arrow">
+                    ↓
+                </div>
+
+
+                <div class="method-step">
+                    Classification
+                </div>
+
+                <div class="method-arrow">
+                    ↓
+                </div>
+
+
+                <div class="method-step">
+                    Evaluation
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        MODEL ARCHITECTURE
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>
+                    Model Architecture
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="architecture-card">
+
+                <p class="architecture-description">
+                    Hybrid CNN-LSTM Architecture for Multimodal
+                    Feature Extraction
+                </p>
+
+
+                <div class="pipeline-grid">
+
+
+                    <!-- ECG -->
+
+                    <div class="pipeline">
+
+                        <h3 class="cyan-text">
+                            ECG Pipeline (187 features)
+                        </h3>
+
+
+                        <div class="pipeline-layer cyan-border">
+
+                            <span>
+                                CNN Layer 1
+                            </span>
+
+                            <strong>
+                                64 filters (Conv1D)
+                                + Batch Normalization
+                            </strong>
+
+                            <small>
+                                Activation: ReLU |
+                                MaxPooling: 2
+                            </small>
+
+                        </div>
+
+
+                        <div class="pipeline-layer cyan-border">
+
+                            <span>
+                                CNN Layer 2
+                            </span>
+
+                            <strong>
+                                128 filters (Conv1D)
+                            </strong>
+
+                            <small>
+                                Activation: ReLU |
+                                MaxPooling: 2
+                            </small>
+
+                        </div>
+
+
+                        <div class="pipeline-layer cyan-border">
+
+                            <span>
+                                LSTM Layer
+                            </span>
+
+                            <strong>
+                                64 units - Temporal learning
+                            </strong>
+
+                            <small>
+                                Activation: Tanh
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EEG -->
+
+                    <div class="pipeline">
+
+                        <h3 class="purple-text">
+                            EEG Pipeline (4097 features)
+                        </h3>
+
+
+                        <div class="pipeline-layer purple-border">
+
+                            <span>
+                                CNN Layer 1
+                            </span>
+
+                            <strong>
+                                64 filters (Conv1D)
+                                + Batch Normalization
+                            </strong>
+
+                            <small>
+                                Activation: ReLU |
+                                MaxPooling: 2
+                            </small>
+
+                        </div>
+
+
+                        <div class="pipeline-layer purple-border">
+
+                            <span>
+                                CNN Layer 2
+                            </span>
+
+                            <strong>
+                                128 filters (Conv1D)
+                            </strong>
+
+                            <small>
+                                Activation: ReLU |
+                                MaxPooling: 2
+                            </small>
+
+                        </div>
+
+
+                        <div class="pipeline-layer purple-border">
+
+                            <span>
+                                LSTM Layer
+                            </span>
+
+                            <strong>
+                                64 units - Temporal learning
+                            </strong>
+
+                            <small>
+                                Activation: Tanh
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="fusion-flow">
+
+                    <div class="fusion-box">
+
+                        <strong>
+                            Fusion Layer
+                        </strong>
+
+                        <span>
+                            Concatenation of ECG + EEG features
+                        </span>
+
+                    </div>
+
+
+                    <div class="dense-box">
+                        Dense Layer 1:
+                        128 neurons +
+                        Dropout (0.3) |
+                        ReLU
+                    </div>
+
+
+                    <div class="dense-box">
+                        Dense Layer 2:
+                        64 neurons | ReLU
+                    </div>
+
+
+                    <div class="output-box">
+
+                        <strong>
+                            Output Layer:
+                            2/5 neurons | Softmax
+                        </strong>
+
+                        <span>
+                            Classification:
+                            Normal / Abnormal (or 5-class)
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        RESULTS
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div class="large-section-icon">
+                    ▥
+                </div>
+
+                <h2>
+                    Results
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="result-cards">
+
+
+                <div class="result-card green-result">
+
+                    <div class="result-icon">
+                        ↗
+                    </div>
+
+                    <h3>
+                        Model Accuracy
+                    </h3>
+
+
+                    <div class="result-value">
+
+                        <span>
+                            Training Accuracy
+                        </span>
+
+                        <strong>
+                            96.85%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="result-value">
+
+                        <span>
+                            Validation Accuracy
+                        </span>
+
+                        <strong>
+                            97.12%
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="result-card blue-result">
+
+                    <div class="result-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Model Loss
+                    </h3>
+
+
+                    <div class="result-value">
+
+                        <span>
+                            Training Loss
+                        </span>
+
+                        <strong>
+                            0.0895
+                        </strong>
+
+                    </div>
+
+
+                    <div class="result-value">
+
+                        <span>
+                            Validation Loss
+                        </span>
+
+                        <strong>
+                            0.0852
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="training-settings">
+
+
+                <div>
+                    <strong>
+                        25
+                    </strong>
+
+                    <span>
+                        Epochs
+                    </span>
+                </div>
+
+
+                <div>
+                    <strong>
+                        64
+                    </strong>
+
+                    <span>
+                        Batch Size
+                    </span>
+                </div>
+
+
+                <div>
+                    <strong>
+                        Emma
+                    </strong>
+
+                    <span>
+                        Optimizer
+                    </span>
+                </div>
+
+
+                <div>
+                    <strong>
+                        0.001
+                    </strong>
+
+                    <span>
+                        Learning Rate
+                    </span>
+                </div>
+
+            </div>
+
+
+
+            <!-- Training chart -->
+
+            <div class="chart-container">
+
+                <h3>
+                    Training Progress
+                </h3>
+
+
+                <svg viewBox="0 0 700 360" class="results-chart">
+
+                    <!-- Grid -->
+
+                    <line x1="70" y1="40" x2="650" y2="40" class="chart-grid" />
+
+                    <line x1="70" y1="110" x2="650" y2="110" class="chart-grid" />
+
+                    <line x1="70" y1="180" x2="650" y2="180" class="chart-grid" />
+
+                    <line x1="70" y1="250" x2="650" y2="250" class="chart-grid" />
+
+                    <line x1="70" y1="320" x2="650" y2="320" class="chart-axis" />
+
+
+                    <line x1="70" y1="40" x2="70" y2="320" class="chart-axis" />
+
+
+                    <!-- Accuracy -->
+
+                    <polyline points="
+                        70,119
+                        186,84
+                        302,65
+                        418,52
+                        534,46
+                        650,42" class="accuracy-line" />
+
+
+                    <!-- Loss -->
+
+                    <polyline points="
+                        70,83
+                        186,174
+                        302,233
+                        418,261
+                        534,278
+                        650,294" class="loss-line" />
+
+
+                    <!-- Accuracy points -->
+
+                    <circle cx="70" cy="119" r="5" class="accuracy-point" />
+
+                    <circle cx="186" cy="84" r="5" class="accuracy-point" />
+
+                    <circle cx="302" cy="65" r="5" class="accuracy-point" />
+
+                    <circle cx="418" cy="52" r="5" class="accuracy-point" />
+
+                    <circle cx="534" cy="46" r="5" class="accuracy-point" />
+
+                    <circle cx="650" cy="42" r="5" class="accuracy-point" />
+
+
+                    <!-- Loss points -->
+
+                    <circle cx="70" cy="83" r="5" class="loss-point" />
+
+                    <circle cx="186" cy="174" r="5" class="loss-point" />
+
+                    <circle cx="302" cy="233" r="5" class="loss-point" />
+
+                    <circle cx="418" cy="261" r="5" class="loss-point" />
+
+                    <circle cx="534" cy="278" r="5" class="loss-point" />
+
+                    <circle cx="650" cy="294" r="5" class="loss-point" />
+
+
+                    <!-- Axis labels -->
+
+                    <text x="60" y="44">1.0</text>
+                    <text x="60" y="114">0.75</text>
+                    <text x="60" y="184">0.5</text>
+                    <text x="60" y="254">0.25</text>
+                    <text x="60" y="324">0</text>
+
+
+                    <text x="65" y="345">
+                        1
+                    </text>
+
+                    <text x="180" y="345">
+                        5
+                    </text>
+
+                    <text x="295" y="345">
+                        10
+                    </text>
+
+                    <text x="410" y="345">
+                        15
+                    </text>
+
+                    <text x="525" y="345">
+                        20
+                    </text>
+
+                    <text x="640" y="345">
+                        25
+                    </text>
+
+                </svg>
+
+
+                <div class="chart-legend">
+
+                    <span>
+                        <i class="accuracy-color"></i>
+                        Accuracy
+                    </span>
+
+                    <span>
+                        <i class="loss-color"></i>
+                        Loss
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Confusion Matrix -->
+
+            <div class="confusion-container">
+
+                <h3>
+                    Confusion Matrix
+                </h3>
+
+
+                <div class="confusion-matrix">
+
+                    <div></div>
+
+                    <span>Normal</span>
+                    <span>AF</span>
+                    <span>VF</span>
+                    <span>SVT</span>
+                    <span>Seizure</span>
+
+
+                    <strong>
+                        Normal
+                    </strong>
+
+                    <div class="matrix-correct">
+                        1850
+                    </div>
+
+                    <div>12</div>
+                    <div>8</div>
+                    <div>5</div>
+                    <div>3</div>
+
+
+                    <strong>
+                        AF
+                    </strong>
+
+                    <div>10</div>
+
+                    <div class="matrix-correct">
+                        1920
+                    </div>
+
+                    <div>15</div>
+                    <div>7</div>
+                    <div>2</div>
+
+
+                    <strong>
+                        VF
+                    </strong>
+
+                    <div>6</div>
+                    <div>18</div>
+
+                    <div class="matrix-correct">
+                        1895
+                    </div>
+
+                    <div>10</div>
+                    <div>5</div>
+
+
+                    <strong>
+                        SVT
+                    </strong>
+
+                    <div>5</div>
+                    <div>8</div>
+                    <div>12</div>
+
+                    <div class="matrix-correct">
+                        1910
+                    </div>
+
+                    <div>8</div>
+
+
+                    <strong>
+                        Seizure
+                    </strong>
+
+                    <div>3</div>
+                    <div>5</div>
+                    <div>7</div>
+                    <div>6</div>
+
+                    <div class="matrix-correct">
+                        1920
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        INTERACTIVE GUI
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div class="large-section-icon">
+                    ↑
+                </div>
+
+                <h2>
+                    Interactive GUI
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="gui-card">
+
+
+                <div class="gui-input-grid">
+
+
+                    <!-- ECG -->
+
+                    <div class="signal-panel">
+
+                        <div class="signal-title">
+
+                            <span class="signal-symbol cyan-text">
+                                ♥
+                            </span>
+
+                            <h3>
+                                ECG Signal Input
+                            </h3>
+
+                        </div>
+
+
+                        <svg viewBox="0 0 400 120" class="signal-svg">
+
+                            <defs>
+
+                                <pattern id="ecg-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+
+                                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" />
+
+                                </pattern>
+
+                            </defs>
+
+
+                            <rect width="400" height="120" fill="url(#ecg-grid)" />
+
+
+                            <path class="ecg-line" d="
+                                M0,60
+                                L40,60
+                                L42,60
+                                L44,40
+                                L46,80
+                                L48,20
+                                L50,60
+                                L52,60
+                                L80,60
+                                L82,60
+                                L84,40
+                                L86,80
+                                L88,20
+                                L90,60
+                                L92,60
+                                L120,60
+                                L122,60
+                                L124,40
+                                L126,80
+                                L128,20
+                                L130,60
+                                L132,60
+                                L160,60
+                                L162,60
+                                L164,40
+                                L166,80
+                                L168,20
+                                L170,60
+                                L172,60
+                                L200,60
+                                L202,60
+                                L204,40
+                                L206,80
+                                L208,20
+                                L210,60
+                                L212,60
+                                L240,60
+                                L242,60
+                                L244,40
+                                L246,80
+                                L248,20
+                                L250,60
+                                L252,60
+                                L280,60
+                                L282,60
+                                L284,40
+                                L286,80
+                                L288,20
+                                L290,60
+                                L292,60
+                                L320,60
+                                L322,60
+                                L324,40
+                                L326,80
+                                L328,20
+                                L330,60
+                                L332,60
+                                L360,60
+                                L362,60
+                                L364,40
+                                L366,80
+                                L368,20
+                                L370,60
+                                L372,60
+                                L400,60" />
+
+                        </svg>
+
+
+                        <button class="upload-button cyan-button">
+                            <span>
+                                ↑
+                            </span>
+
+                            Upload ECG Signal
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- EEG -->
+
+                    <div class="signal-panel">
+
+                        <div class="signal-title">
+
+                            <span class="signal-symbol purple-text">
+                                🧠
+                            </span>
+
+                            <h3>
+                                EEG Signal Input
+                            </h3>
+
+                        </div>
+
+
+                        <svg viewBox="0 0 400 120" class="signal-svg">
+
+                            <defs>
+
+                                <pattern id="eeg-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+
+                                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" />
+
+                                </pattern>
+
+                            </defs>
+
+
+                            <rect width="400" height="120" fill="url(#eeg-grid)" />
+
+
+                            <path class="eeg-line" d="
+                                M0,60
+                                Q10,50 20,60
+                                T40,60
+                                Q50,70 60,60
+                                T80,60
+                                Q90,55 100,60
+                                T120,60
+                                Q130,65 140,60
+                                T160,60
+                                Q170,50 180,60
+                                T200,60
+                                Q210,70 220,60
+                                T240,60
+                                Q250,55 260,60
+                                T280,60
+                                Q290,65 300,60
+                                T320,60
+                                Q330,50 340,60
+                                T360,60
+                                Q370,70 380,60
+                                T400,60" />
+
+                        </svg>
+
+
+                        <button class="upload-button purple-button">
+                            <span>
+                                ↑
+                            </span>
+
+                            Upload EEG Signal
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="prediction-panel">
+
+                    <p>
+                        Prediction Result
+                    </p>
+
+                    <strong>
+                        Normal
+                    </strong>
+
+                    <span>
+                        Confidence: 97.45%
+                    </span>
+
+                    <small>
+                        Sample: EEG #18 + ECG #120
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        CONCLUSION
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="conclusion-card">
+
+                <h2>
+                    Conclusion
+                </h2>
+
+
+                <div class="conclusion-item">
+
+                    <span>
+                        ✓
+                    </span>
+
+                    <p>
+                        A multimodal deep learning-based health
+                        monitoring system was successfully developed
+                        by integrating
+                        <span class="cyan-text">
+                            ECG and EEG signals
+                        </span>.
+                        The hybrid
+                        <span class="purple-text">
+                            CNN-LSTM model
+                        </span>
+                        effectively extracts and fuses features
+                        from both biosignals.
+                    </p>
+
+                </div>
+
+
+                <div class="conclusion-item">
+
+                    <span>
+                        ✓
+                    </span>
+
+                    <p>
+                        The model achieved a validation accuracy of
+                        <span class="green-text">
+                            97.12%
+                        </span>,
+                        demonstrating strong performance and good
+                        generalization. Techniques such as
+                        <span class="blue-text">
+                            Dropout and Batch Normalization
+                        </span>
+                        helped prevent overfitting.
+                    </p>
+
+                </div>
+
+
+                <div class="conclusion-item">
+
+                    <span>
+                        ✓
+                    </span>
+
+                    <p>
+                        A user-friendly GUI was developed to allow
+                        <span class="cyan-text">
+                            real-time signal visualization and prediction
+                        </span>.
+                        This project highlights the potential of
+                        multimodal biosignal fusion in building
+                        intelligent healthcare systems for early
+                        disease detection and continuous monitoring.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+        FOOTER / REFERENCES
+    ====================================================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <h2>
+                References
+            </h2>
+
+
+            <div class="references-grid">
+
+
+                <div class="reference-card cyan-reference">
+
+                    <strong>
+                        [1] MIT-BIH Arrhythmia Database
+                    </strong>
+
+                    <p>
+                        PhysioNet -
+                        physionet.org/content/mitdb/
+                    </p>
+
+                </div>
+
+
+                <div class="reference-card purple-reference">
+
+                    <strong>
+                        [2] Bonn EEG Dataset
+                    </strong>
+
+                    <p>
+                        University of Bonn
+                        Epileptology Database
+                    </p>
+
+                </div>
+
+
+                <div class="reference-card blue-reference">
+
+                    <strong>
+                        [3] PyTorch Framework
+                    </strong>
+
+                    <p>
+                        Deep Learning Framework -
+                        pytorch.org/docs/
+                    </p>
+
+                </div>
+
+
+                <div class="reference-card green-reference">
+
+                    <strong>
+                        [4] PhysioNet
+                    </strong>
+
+                    <p>
+                        Research Resource -
+                        physionet.org/
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    The Higher School of Engineering and Applied Technology.
+                </p>
+
+                <p>
+                    Department of Biomedical Engineering |
+                    Biomedical Signal Analysis Lab
+                </p>
+
+                <p>
+                    © 2026 Ghada Boughrara |
+                    Biomedical Engineering
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
