@@ -80,5 +80,3 @@ The CSS is structured around modular, reusable UI components:
 | **Responsiveness** | Mobile to 4K Displays |
 
 ```
-
-```
