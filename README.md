@@ -78,5 +78,3 @@ The CSS is structured around modular, reusable UI components:
 | **Color Variants** | 40+ |
 | **Keyframe Animations** | 2+ |
 | **Responsiveness** | Mobile to 4K Displays |
-
-```
